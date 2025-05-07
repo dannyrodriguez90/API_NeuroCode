@@ -3,16 +3,16 @@ import User from "../usuario/usuario.model.js";
 
 export const validarJWT = async (req, res, next) => {
     try {
-        let token = req.body.token || req.query.token || req.headers["authorization"];
+        let token = req.headers["authorization"];
 
-        if (!token) {
-            return res.status(400).json({
+        if (!token || !token.startsWith("Bearer ")) {
+            return res.status(401).json({
                 success: false,
-                message: "No hay token en la petición"
+                message: "Token no proporcionado o formato inválido"
             });
         }
 
-        token = token.replace(/^Bearer\s+/, "");
+        token = token.split(" ")[1];
 
         const { uid } = jwt.verify(token, process.env.KEY);
 
@@ -35,9 +35,9 @@ export const validarJWT = async (req, res, next) => {
         req.usuario = user;
         next();
     } catch (err) {
-        return res.status(500).json({
+        return res.status(401).json({
             success: false,
-            message: "Error al validar el token",
+            message: "Token inválido o expirado",
             error: err.message
         });
     }
