@@ -4,7 +4,10 @@ import cors from "cors"
 import helmet from "helmet"
 import morgan from "morgan"
 import { dbConnection } from "./mongo.js"
-
+import apiLimiter  from "../src/middlewares/rate-limit-validator.js"
+import authRoutes from "../src/auth/auth.routes.js"
+import usuarioRoutes from "../src/usuario/usuario.routes.js"
+import { swaggerDocs, swaggerUi } from "./swagger.js" 
 
 
 
@@ -14,7 +17,7 @@ const middlewares = (app) => {
     app.use(cors())
     app.use(helmet())
     app.use(morgan("dev"))
-    /*app.use(apiLimiter)*/
+    app.use(apiLimiter)
 }
 
 const conectarDB = async () =>{
@@ -22,11 +25,13 @@ const conectarDB = async () =>{
         await dbConnection()
     }catch(err){
         console.log(`Database connection failed: ${err}`)
-        process.exit(1)
     }
 }
 
 const routes = (app) => {
+    app.use("/neuroCode/v1/auth", authRoutes);
+    app.use("/neuroCode/v1/usuarios", usuarioRoutes);
+    app.use("/neuroCode/v1/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 }
 
 export const initServer = () => {
