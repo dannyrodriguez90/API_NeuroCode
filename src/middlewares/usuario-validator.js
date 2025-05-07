@@ -27,6 +27,18 @@ export const validarLogin = [
     handleErrors
 ];
 
+export const validarObtenerUsuarios = [
+    param("limite")
+        .optional()
+        .isInt({ min: 1 })
+        .withMessage("El parámetro 'limite' debe ser un número entero positivo"),
+    param("desde")
+        .optional()
+        .isInt({ min: 0 })
+        .withMessage("El parámetro 'desde' debe ser un número entero mayor o igual a 0"),
+    validarCampos,
+    handleErrors
+];
 
 export const validarEliminarUsuario = [
     param("uid").isMongoId().withMessage("No es un ID válido de MongoDB"),
