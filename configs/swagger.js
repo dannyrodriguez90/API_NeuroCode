@@ -22,6 +22,7 @@ const options ={
     apis:[
         "./src/auth/auth.routes.js",
         "./src/usuario/usuario.routes.js",
+        "./src/curso/curso.routes.js",
     ]
 }
 

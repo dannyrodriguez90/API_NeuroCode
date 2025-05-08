@@ -7,7 +7,9 @@ import { dbConnection } from "./mongo.js"
 import apiLimiter  from "../src/middlewares/rate-limit-validator.js"
 import authRoutes from "../src/auth/auth.routes.js"
 import usuarioRoutes from "../src/usuario/usuario.routes.js"
+import cursoRoutes from "../src/curso/curso.routes.js"
 import { swaggerDocs, swaggerUi } from "./swagger.js" 
+import { adminDefault } from "./admin.default.js"
 
 
 
@@ -23,6 +25,7 @@ const middlewares = (app) => {
 const conectarDB = async () =>{
     try{
         await dbConnection()
+        await adminDefault();
     }catch(err){
         console.log(`Database connection failed: ${err}`)
     }
@@ -31,6 +34,7 @@ const conectarDB = async () =>{
 const routes = (app) => {
     app.use("/neuroCode/v1/auth", authRoutes);
     app.use("/neuroCode/v1/usuarios", usuarioRoutes);
+    app.use("/neuroCode/v1/curso", cursoRoutes);
     app.use("/neuroCode/v1/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 }
 
