@@ -1,7 +1,5 @@
 import { Router } from "express";
 import { validarCrearCurso, validarObtenerCursoPorId, validarActualizarCurso, validarEliminarCurso } from "../middlewares/curso-validator.js";
-import { validarJWT } from "../middlewares/validar-jwt.js";
-import { validateRole } from "../middlewares/validate-role.js";
 import { crearCurso, obtenerCursos, obtenerCursoPorId, actualizarCurso, eliminarCurso } from "./curso.controller.js";
 
 const router = Router();
@@ -33,7 +31,7 @@ const router = Router();
  *       500:
  *         description: Error al crear el curso
  */
-router.post("/crearCurso/", [validarJWT, validateRole, validarCrearCurso], crearCurso);
+router.post("/crearCurso/", validarCrearCurso, crearCurso);
 
 /**
  * @swagger
@@ -108,7 +106,7 @@ router.get("/obtenerCursoID/:id", validarObtenerCursoPorId, obtenerCursoPorId);
  *       500:
  *         description: Error al actualizar el curso
  */
-router.put("/actualizarCurso/:id", [validarJWT, validateRole, validarActualizarCurso], actualizarCurso);
+router.put("/actualizarCurso/:id", validarActualizarCurso, actualizarCurso);
 
 /**
  * @swagger
@@ -133,6 +131,6 @@ router.put("/actualizarCurso/:id", [validarJWT, validateRole, validarActualizarC
  *       500:
  *         description: Error al eliminar el curso
  */
-router.delete("/eliminarCurso/:id", [validarJWT, validateRole, validarEliminarCurso], eliminarCurso);
+router.delete("/eliminarCurso/:id",  eliminarCurso);
 
 export default router;

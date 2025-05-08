@@ -8,7 +8,7 @@ import {
     eliminarPublicacion,
     eliminarPublicacionPermanente
 } from "./publicacion.controller.js";
-import { validateRole } from "../middlewares/validate-role.js";
+
 
 const router = Router();
 
@@ -18,6 +18,6 @@ router.get("obtenerPublicacionID/:id", obtenerPublicacionPorId);
 router.get("/obtenerCurso/:cursoId", obtenerPublicacionesPorCurso);
 router.put("actualizarPublicacion/:id", actualizarPublicacion);
 router.delete("eliminarPublicacion/:id", eliminarPublicacion);
-router.delete("/eliminarPermanente/:id", validateRole, eliminarPublicacionPermanente);
+router.delete("/eliminarPermanente/:id", eliminarPublicacionPermanente);
 
 export default router;
