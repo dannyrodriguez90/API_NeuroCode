@@ -4,33 +4,30 @@ const publicacionSchema = new Schema({
     titulo: {
         type: String,
         required: [true, "El título es obligatorio"],
-        maxLength: [100, "El título no puede exceder los 100 caracteres"],
         trim: true
     },
-    descripcion: {
+    contenido: {
         type: String,
-        required: [true, "La descripción es obligatoria"],
-        maxLength: [1000, "La descripción no puede exceder los 1000 caracteres"],
-        trim: true
+        required: [true, "El contenido es obligatorio"]
     },
-    curso: {
+    cursoId: {
         type: Schema.Types.ObjectId,
         ref: "Curso",
-        required: [true, "El curso asociado es obligatorio"]
+        required: true
     },
-    status: {
-        type: Boolean,
-        default: true
+    comentarios: [
+        {
+            type: Schema.Types.ObjectId,
+            ref: "Comentario"
+        }
+    ],
+    fecha: {
+        type: Date,
+        default: Date.now
     }
 }, {
     versionKey: false,
     timestamps: true
 });
-
-publicacionSchema.methods.toJSON = function () {
-    const { _id, ...publicacion } = this.toObject();
-    publicacion.uid = _id;
-    return publicacion;
-};
 
 export default model("Publicacion", publicacionSchema);

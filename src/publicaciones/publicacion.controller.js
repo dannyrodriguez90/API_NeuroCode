@@ -49,24 +49,17 @@ export const obtenerPublicaciones = async (req, res) => {
 export const obtenerPublicacionPorId = async (req, res) => {
     try {
         const { id } = req.params;
+
         const publicacion = await Publicacion.findById(id)
-            .populate("curso", "nombre descripcion");
-        if (!publicacion || !publicacion.status) {
-            return res.status(404).json({
-                success: false,
-                message: "Publicación no encontrada"
-            });
+            .populate("comentarios");
+
+        if (!publicacion) {
+            return res.status(404).json({ message: "Publicación no encontrada." });
         }
-        return res.status(200).json({
-            success: true,
-            publicacion
-        });
-    } catch (err) {
-        return res.status(500).json({
-            success: false,
-            message: "Error al obtener la publicación",
-            error: err.message
-        });
+
+        res.status(200).json(publicacion);
+    } catch (error) {
+        res.status(500).json({ message: "Error al obtener la publicación.", error });
     }
 };
 
