@@ -8,8 +8,10 @@ import apiLimiter  from "../src/middlewares/rate-limit-validator.js"
 import authRoutes from "../src/auth/auth.routes.js"
 import usuarioRoutes from "../src/usuario/usuario.routes.js"
 import cursoRoutes from "../src/curso/curso.routes.js"
+import publicacionRoutes from "../src/publicaciones/publicacion.routes.js"
 import { swaggerDocs, swaggerUi } from "./swagger.js" 
 import { adminDefault } from "./admin.default.js"
+import { inicializarCursos } from "./admin.default.js"
 
 
 
@@ -26,6 +28,7 @@ const conectarDB = async () =>{
     try{
         await dbConnection()
         await adminDefault();
+        await inicializarCursos();
     }catch(err){
         console.log(`Database connection failed: ${err}`)
     }
@@ -35,6 +38,7 @@ const routes = (app) => {
     app.use("/neuroCode/v1/auth", authRoutes);
     app.use("/neuroCode/v1/usuarios", usuarioRoutes);
     app.use("/neuroCode/v1/curso", cursoRoutes);
+    app.use("/neuroCode/v1/publicaciones", publicacionRoutes);
     app.use("/neuroCode/v1/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 }
 
