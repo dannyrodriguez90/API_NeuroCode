@@ -3,16 +3,15 @@ import Curso from "../curso/curso.model.js";
 
 export const crearPublicacion = async (req, res) => {
     try {
-        const { titulo, descripcion, curso } = req.body;
-        const cursoExistente = await Curso.findById(curso);
+        const { titulo, contenido, cursoId } = req.body; 
+        const cursoExistente = await Curso.findById(cursoId);
         if (!cursoExistente) {
             return res.status(400).json({
                 success: false,
                 message: "El curso asociado no existe"
             });
         }
-
-        const nuevaPublicacion = new Publicacion({ titulo, descripcion, curso });
+        const nuevaPublicacion = new Publicacion({ titulo, contenido, cursoId }); 
         await nuevaPublicacion.save();
 
         return res.status(201).json({
@@ -28,10 +27,11 @@ export const crearPublicacion = async (req, res) => {
         });
     }
 };
+
 export const obtenerPublicaciones = async (req, res) => {
     try {
         const publicaciones = await Publicacion.find({ status: true })
-            .populate("curso", "nombre descripcion")
+            .populate("cursoId", "nombre descripcion")
             .sort({ createdAt: -1 });
         return res.status(200).json({
             success: true,
@@ -66,7 +66,7 @@ export const obtenerPublicacionPorId = async (req, res) => {
 export const obtenerPublicacionesPorCurso = async (req, res) => {
     try {
         const { cursoId } = req.params;
-        const publicaciones = await Publicacion.find({ curso: cursoId, status: true });
+        const publicaciones = await Publicacion.find({ cursoId: cursoId, status: true });
         return res.status(200).json({
             success: true,
             publicaciones

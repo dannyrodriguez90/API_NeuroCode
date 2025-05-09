@@ -24,6 +24,10 @@ const publicacionSchema = new Schema({
     fecha: {
         type: Date,
         default: Date.now
+    },
+    status: {	
+        type: Boolean,
+        default: true
     }
 }, {
     versionKey: false,
