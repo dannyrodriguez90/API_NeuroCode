@@ -1,483 +1,504 @@
 [{
   "_id": {
-    "$oid": "682107a6ea080f65da4a1c2d"
+    "$oid": "682114d2144c84fa93517372"
   },
-  "titulo": "Headers y Authorization",
-  "contenido": "Aprende a enviar headers personalizados, incluyendo tokens y content-types.",
+  "titulo": "Introducción a las APIs REST",
+  "contenido": "Aprende los conceptos básicos de REST y cómo estructurar endpoints para tu aplicación.",
   "cursoId": {
     "$oid": "68210790ea080f65da4a1c23"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:25:10.075Z"
+    "$date": "2025-05-11T21:21:22.941Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:25:10.075Z"
+    "$date": "2025-05-11T21:21:22.941Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:25:10.075Z"
+    "$date": "2025-05-11T21:21:22.941Z"
   }
 },
 {
   "_id": {
-    "$oid": "68210853ea080f65da4a1c30"
+    "$oid": "682114de144c84fa93517375"
   },
-  "titulo": "Qué es una API",
-  "contenido": "Descubre qué son las APIs y cómo permiten la comunicación entre aplicaciones.",
+  "titulo": "Métodos HTTP y sus usos",
+  "contenido": "Comprende cómo usar GET, POST, PUT y DELETE para trabajar con recursos.",
   "cursoId": {
     "$oid": "68210790ea080f65da4a1c23"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:28:03.875Z"
+    "$date": "2025-05-11T21:21:34.210Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:28:03.875Z"
+    "$date": "2025-05-11T21:21:34.210Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:28:03.875Z"
+    "$date": "2025-05-11T21:21:34.210Z"
   }
 },
 {
   "_id": {
-    "$oid": "68210868ea080f65da4a1c33"
+    "$oid": "682114e5144c84fa93517378"
   },
-  "titulo": "Tipos de APIs",
-  "contenido": "Explora las diferencias entre REST, SOAP y GraphQL y sus casos de uso.",
+  "titulo": "Autenticación con tokens JWT",
+  "contenido": "Implementa seguridad en tus rutas de API usando JSON Web Tokens.",
   "cursoId": {
     "$oid": "68210790ea080f65da4a1c23"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:28:24.446Z"
+    "$date": "2025-05-11T21:21:41.727Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:28:24.447Z"
+    "$date": "2025-05-11T21:21:41.727Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:28:24.447Z"
+    "$date": "2025-05-11T21:21:41.727Z"
   }
 },
 {
   "_id": {
-    "$oid": "6821087aea080f65da4a1c36"
+    "$oid": "682114ec144c84fa9351737b"
   },
-  "titulo": "Métodos HTTP en APIs",
-  "contenido": "Aprende a utilizar métodos como GET, POST, PUT y DELETE en peticiones HTTP.",
+  "titulo": "Middleware en APIs Express",
+  "contenido": "Aprovecha middlewares para validar, autenticar y controlar tus peticiones.",
   "cursoId": {
     "$oid": "68210790ea080f65da4a1c23"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:28:42.993Z"
+    "$date": "2025-05-11T21:21:48.568Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:28:42.993Z"
+    "$date": "2025-05-11T21:21:48.569Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:28:42.993Z"
+    "$date": "2025-05-11T21:21:48.569Z"
   }
 },
 {
   "_id": {
-    "$oid": "6821088fea080f65da4a1c39"
+    "$oid": "682114f5144c84fa9351737e"
   },
-  "titulo": "Códigos de respuesta HTTP",
-  "contenido": "Conoce los principales códigos como 200, 404 y 500, y qué significan.",
+  "titulo": "Errores comunes en APIs",
+  "contenido": "Identifica errores frecuentes y aprende a manejar respuestas con códigos HTTP adecuados.",
   "cursoId": {
     "$oid": "68210790ea080f65da4a1c23"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:29:03.310Z"
+    "$date": "2025-05-11T21:21:57.313Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:29:03.311Z"
+    "$date": "2025-05-11T21:21:57.313Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:29:03.311Z"
+    "$date": "2025-05-11T21:21:57.313Z"
   }
 },
 {
   "_id": {
-    "$oid": "682108a7ea080f65da4a1c3c"
+    "$oid": "682114fd144c84fa93517381"
   },
-  "titulo": "Autenticación con JWT",
-  "contenido": "Conoce cómo funcionan los tokens JWT y cómo enviarlos en headers de peticiones.",
+  "titulo": "Uso de MongoDB en APIs",
+  "contenido": "Conecta tu API con MongoDB y aprende a manejar documentos y colecciones.",
   "cursoId": {
     "$oid": "68210790ea080f65da4a1c23"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:29:27.030Z"
+    "$date": "2025-05-11T21:22:05.379Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:29:27.030Z"
+    "$date": "2025-05-11T21:22:05.380Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:29:27.030Z"
+    "$date": "2025-05-11T21:22:05.380Z"
   }
 },
 {
   "_id": {
-    "$oid": "682108bbea080f65da4a1c3f"
+    "$oid": "68211504144c84fa93517384"
   },
-  "titulo": "Headers y Authorization",
-  "contenido": "Aprende a enviar headers personalizados, incluyendo tokens y content-types.",
+  "titulo": "Pruebas con Postman",
+  "contenido": "Realiza pruebas y documenta tu API con Postman.",
   "cursoId": {
     "$oid": "68210790ea080f65da4a1c23"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:29:47.644Z"
+    "$date": "2025-05-11T21:22:12.793Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:29:47.644Z"
+    "$date": "2025-05-11T21:22:12.793Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:29:47.644Z"
+    "$date": "2025-05-11T21:22:12.793Z"
   }
 },
 {
   "_id": {
-    "$oid": "68210946ea080f65da4a1c4c"
+    "$oid": "6821150b144c84fa93517387"
   },
-  "titulo": "Consumo de API con Fetch",
-  "contenido": "Haz peticiones a APIs desde React usando Fetch API de forma sencilla.",
+  "titulo": "Deploy de APIs con Render",
+  "contenido": "Sube tu API a la nube usando Render paso a paso.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c23"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T21:22:19.511Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T21:22:19.511Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T21:22:19.511Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68211543144c84fa9351738a"
+  },
+  "titulo": "Consumo de APIs con React",
+  "contenido": "Aprende a usar fetch y Axios para consumir datos desde el frontend.",
   "cursoId": {
     "$oid": "68210790ea080f65da4a1c27"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:32:06.178Z"
+    "$date": "2025-05-11T21:23:15.952Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:32:06.178Z"
+    "$date": "2025-05-11T21:23:15.953Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:32:06.178Z"
+    "$date": "2025-05-11T21:23:15.953Z"
   }
 },
 {
   "_id": {
-    "$oid": "68210950ea080f65da4a1c4f"
-  },
-  "titulo": "Consumo de API con Axios",
-  "contenido": "Simplifica tus peticiones HTTP con la librería Axios en tus componentes React.",
-  "cursoId": {
-    "$oid": "68210790ea080f65da4a1c27"
-  },
-  "comentarios": [],
-  "status": true,
-  "fecha": {
-    "$date": "2025-05-11T20:32:16.058Z"
-  },
-  "createdAt": {
-    "$date": "2025-05-11T20:32:16.059Z"
-  },
-  "updatedAt": {
-    "$date": "2025-05-11T20:32:16.059Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "6821095dea080f65da4a1c52"
+    "$oid": "6821154d144c84fa9351738d"
   },
   "titulo": "useEffect para llamadas a APIs",
-  "contenido": "Utiliza el hook useEffect para hacer llamadas a API al montar un componente.",
+  "contenido": "Controla cuándo hacer peticiones HTTP usando el hook useEffect.",
   "cursoId": {
     "$oid": "68210790ea080f65da4a1c27"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:32:29.546Z"
+    "$date": "2025-05-11T21:23:25.611Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:32:29.546Z"
+    "$date": "2025-05-11T21:23:25.612Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:32:29.546Z"
+    "$date": "2025-05-11T21:23:25.612Z"
   }
 },
 {
   "_id": {
-    "$oid": "68210968ea080f65da4a1c55"
+    "$oid": "68211555144c84fa93517390"
   },
-  "titulo": "Renderizado condicional en React",
-  "contenido": "Muestra contenido basado en el estado de carga, error o éxito de una petición.",
+  "titulo": "Control de carga y errores",
+  "contenido": "Muestra loaders y mensajes de error mientras esperas respuestas del servidor.",
   "cursoId": {
     "$oid": "68210790ea080f65da4a1c27"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:32:40.306Z"
+    "$date": "2025-05-11T21:23:33.987Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:32:40.306Z"
+    "$date": "2025-05-11T21:23:33.987Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:32:40.306Z"
+    "$date": "2025-05-11T21:23:33.987Z"
   }
 },
 {
   "_id": {
-    "$oid": "68210971ea080f65da4a1c58"
+    "$oid": "6821155e144c84fa93517393"
   },
-  "titulo": "Manejo de errores en peticiones",
-  "contenido": "Implementa un manejo de errores robusto al consumir APIs desde React.",
+  "titulo": "Formularios conectados a APIs",
+  "contenido": "Envía datos desde formularios React hacia tu backend.",
   "cursoId": {
     "$oid": "68210790ea080f65da4a1c27"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:32:49.635Z"
+    "$date": "2025-05-11T21:23:42.087Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:32:49.635Z"
+    "$date": "2025-05-11T21:23:42.088Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:32:49.635Z"
+    "$date": "2025-05-11T21:23:42.088Z"
   }
 },
 {
   "_id": {
-    "$oid": "6821097bea080f65da4a1c5b"
+    "$oid": "68211565144c84fa93517396"
   },
-  "titulo": "Loading y Skeletons en React",
-  "contenido": "Mejora la UX mostrando loaders mientras se cargan los datos de la API.",
+  "titulo": "Axios y manejo de headers",
+  "contenido": "Envía tokens, configuraciones y credenciales usando Axios.",
   "cursoId": {
     "$oid": "68210790ea080f65da4a1c27"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:32:59.890Z"
+    "$date": "2025-05-11T21:23:49.266Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:32:59.890Z"
+    "$date": "2025-05-11T21:23:49.266Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:32:59.890Z"
+    "$date": "2025-05-11T21:23:49.266Z"
   }
 },
 {
   "_id": {
-    "$oid": "68210985ea080f65da4a1c5e"
+    "$oid": "6821156c144c84fa93517399"
   },
-  "titulo": "useContext + APIs",
-  "contenido": "Combina Context API con datos de backend para compartir estado global.",
+  "titulo": "Custom hooks para peticiones",
+  "contenido": "Reutiliza lógica de consumo de APIs creando tus propios hooks.",
   "cursoId": {
     "$oid": "68210790ea080f65da4a1c27"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:33:09.118Z"
+    "$date": "2025-05-11T21:23:56.196Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:33:09.118Z"
+    "$date": "2025-05-11T21:23:56.196Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:33:09.118Z"
+    "$date": "2025-05-11T21:23:56.196Z"
   }
 },
 {
   "_id": {
-    "$oid": "6821098cea080f65da4a1c61"
+    "$oid": "68211572144c84fa9351739c"
   },
-  "titulo": "Guardar token en localStorage",
-  "contenido": "Persistencia de sesión del usuario guardando el token JWT localmente.",
+  "titulo": "Context API + datos externos",
+  "contenido": "Combina el uso de Context con datos de APIs para compartir estados globales.",
   "cursoId": {
     "$oid": "68210790ea080f65da4a1c27"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:33:16.352Z"
+    "$date": "2025-05-11T21:24:02.652Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:33:16.352Z"
+    "$date": "2025-05-11T21:24:02.652Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:33:16.352Z"
+    "$date": "2025-05-11T21:24:02.652Z"
   }
 },
 {
   "_id": {
-    "$oid": "68210a31ea080f65da4a1c73"
+    "$oid": "68211576144c84fa9351739f"
   },
-  "titulo": "Formularios y POST con React",
-  "contenido": "Crea formularios en React y envía datos al servidor con una API REST.",
+  "titulo": "Paginación con React y API",
+  "contenido": "Crea un sistema de paginación dinámica a partir de resultados API.",
   "cursoId": {
-    "$oid": "68210790ea080f65da4a1c2a"
+    "$oid": "68210790ea080f65da4a1c27"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:36:01.886Z"
+    "$date": "2025-05-11T21:24:06.926Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:36:01.886Z"
+    "$date": "2025-05-11T21:24:06.926Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:36:01.886Z"
+    "$date": "2025-05-11T21:24:06.926Z"
   }
 },
 {
   "_id": {
-    "$oid": "68210a3fea080f65da4a1c76"
+    "$oid": "682115bb144c84fa935173a2"
   },
-  "titulo": "PUT y DELETE con Axios",
-  "contenido": "Actualiza o elimina recursos de una API desde componentes de React.",
+  "titulo": "Proyecto completo React + API",
+  "contenido": "Integra todo lo aprendido en un proyecto CRUD completo con frontend y backend.",
   "cursoId": {
-    "$oid": "68210790ea080f65da4a1c2a"
+    "$oid": "08210790ea080f65da4a1c2a"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:36:15.386Z"
+    "$date": "2025-05-11T21:25:15.746Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:36:15.386Z"
+    "$date": "2025-05-11T21:25:15.746Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:36:15.386Z"
+    "$date": "2025-05-11T21:25:15.746Z"
   }
 },
 {
   "_id": {
-    "$oid": "68210a4aea080f65da4a1c79"
+    "$oid": "682115c4144c84fa935173a5"
   },
-  "titulo": "Custom Hooks para APIs",
-  "contenido": "Crea hooks personalizados para reutilizar la lógica de conexión con APIs.",
+  "titulo": "Validaciones en el frontend",
+  "contenido": "Valida formularios y respuestas de API desde React.",
   "cursoId": {
-    "$oid": "68210790ea080f65da4a1c2a"
+    "$oid": "08210790ea080f65da4a1c2a"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:36:26.847Z"
+    "$date": "2025-05-11T21:25:24.115Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:36:26.847Z"
+    "$date": "2025-05-11T21:25:24.115Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:36:26.847Z"
+    "$date": "2025-05-11T21:25:24.115Z"
   }
 },
 {
   "_id": {
-    "$oid": "68210a56ea080f65da4a1c7c"
+    "$oid": "682115cf144c84fa935173a8"
   },
-  "titulo": "CRUD completo con React y API",
-  "contenido": "Implementa todas las operaciones CRUD conectando React con una API REST.",
+  "titulo": "Subida de archivos a la API",
+  "contenido": "Aprende a subir imágenes y documentos desde React usando multipart/form-data.",
   "cursoId": {
-    "$oid": "68210790ea080f65da4a1c2a"
+    "$oid": "08210790ea080f65da4a1c2a"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:36:38.229Z"
+    "$date": "2025-05-11T21:25:35.462Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:36:38.230Z"
+    "$date": "2025-05-11T21:25:35.462Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:36:38.230Z"
+    "$date": "2025-05-11T21:25:35.462Z"
   }
 },
 {
   "_id": {
-    "$oid": "68210a5fea080f65da4a1c7f"
+    "$oid": "682115e6144c84fa935173ab"
   },
-  "titulo": "Paginar resultados de una API",
-  "contenido": "Crea lógica en React para paginar datos obtenidos de una API.",
+  "titulo": "Protección de rutas frontend",
+  "contenido": "Evita accesos no autorizados según el token JWT y el rol del usuario.",
   "cursoId": {
-    "$oid": "68210790ea080f65da4a1c2a"
+    "$oid": "08210790ea080f65da4a1c2a"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:36:47.197Z"
+    "$date": "2025-05-11T21:25:58.775Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:36:47.197Z"
+    "$date": "2025-05-11T21:25:58.775Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:36:47.197Z"
+    "$date": "2025-05-11T21:25:58.775Z"
   }
 },
 {
   "_id": {
-    "$oid": "68210a6aea080f65da4a1c82"
+    "$oid": "682115ee144c84fa935173ae"
   },
-  "titulo": "Filtrar datos de una API",
-  "contenido": "Implementa filtros de búsqueda para los datos recibidos desde el backend.",
+  "titulo": "Roles y permisos desde React",
+  "contenido": "Controla lo que puede ver o hacer el usuario según su rol.",
   "cursoId": {
-    "$oid": "68210790ea080f65da4a1c2a"
+    "$oid": "08210790ea080f65da4a1c2a"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:36:58.959Z"
+    "$date": "2025-05-11T21:26:06.196Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:36:58.959Z"
+    "$date": "2025-05-11T21:26:06.196Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:36:58.959Z"
+    "$date": "2025-05-11T21:26:06.196Z"
   }
 },
 {
   "_id": {
-    "$oid": "68210a72ea080f65da4a1c85"
+    "$oid": "682115f5144c84fa935173b1"
   },
-  "titulo": "Ordenar datos de la API",
-  "contenido": "Permite a los usuarios ordenar resultados por fecha, nombre u otros criterios.",
+  "titulo": "Logout y limpieza de estado",
+  "contenido": "Implementa un cierre de sesión que borre datos locales y estados globales.",
   "cursoId": {
-    "$oid": "68210790ea080f65da4a1c2a"
+    "$oid": "08210790ea080f65da4a1c2a"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:37:06.860Z"
+    "$date": "2025-05-11T21:26:13.086Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:37:06.861Z"
+    "$date": "2025-05-11T21:26:13.086Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:37:06.861Z"
+    "$date": "2025-05-11T21:26:13.086Z"
   }
 },
 {
   "_id": {
-    "$oid": "68210a7dea080f65da4a1c88"
+    "$oid": "682115fb144c84fa935173b4"
   },
-  "titulo": "Logout y limpieza de datos",
-  "contenido": "Implementa un cierre de sesión seguro borrando el token y reiniciando el estado.",
+  "titulo": "Manejo de estado global",
+  "contenido": "Usa Context o Redux para manejar datos compartidos entre componentes.",
   "cursoId": {
-    "$oid": "68210790ea080f65da4a1c2a"
+    "$oid": "08210790ea080f65da4a1c2a"
   },
   "comentarios": [],
   "status": true,
   "fecha": {
-    "$date": "2025-05-11T20:37:17.118Z"
+    "$date": "2025-05-11T21:26:19.713Z"
   },
   "createdAt": {
-    "$date": "2025-05-11T20:37:17.118Z"
+    "$date": "2025-05-11T21:26:19.713Z"
   },
   "updatedAt": {
-    "$date": "2025-05-11T20:37:17.118Z"
+    "$date": "2025-05-11T21:26:19.713Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682115ff144c84fa935173b7"
+  },
+  "titulo": "Deploy de proyecto final",
+  "contenido": "Publica tu aplicación completa React + Node en servicios gratuitos.",
+  "cursoId": {
+    "$oid": "08210790ea080f65da4a1c2a"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T21:26:23.836Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T21:26:23.836Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T21:26:23.836Z"
   }
 }]

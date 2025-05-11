@@ -93,7 +93,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"titulo\": \"Logout y limpieza de datos\",\r\n    \"contenido\": \"Implementa un cierre de sesión seguro borrando el token y reiniciando el estado.\",\r\n    \"cursoId\": \"68210790ea080f65da4a1c2a\"\r\n}",
+							"raw": " {\r\n    \"titulo\": \"Deploy de proyecto final\",\r\n    \"contenido\": \"Publica tu aplicación completa React + Node en servicios gratuitos.\",\r\n    \"cursoId\": \"08210790ea080f65da4a1c2a\"\r\n  }\r\n",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -242,19 +242,6 @@
 								"681c27d2562c53a0540291ae"
 							]
 						}
-					},
-					"response": []
-				}
-			]
-		},
-		{
-			"name": "comentarios",
-			"item": [
-				{
-					"name": "New Request",
-					"request": {
-						"method": "GET",
-						"header": []
 					},
 					"response": []
 				}
