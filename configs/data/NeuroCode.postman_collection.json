@@ -1,0 +1,264 @@
+{
+	"info": {
+		"_postman_id": "434b7103-7ff5-4dad-821e-ee8c94ab9ab1",
+		"name": "NeuroCode",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41832101"
+	},
+	"item": [
+		{
+			"name": "cursos",
+			"item": [
+				{
+					"name": "ObtenerCurso",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2ODFhZDczMTIzOTM2ZjRhNmI2YmRlNGMiLCJpYXQiOjE3NDY1OTA3NDAsImV4cCI6MTc0NjU5NDM0MH0.ux33l63ak2ZhxJirBRn0Bc_1P8Stu3vX9aVY3p0MYWw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Introducción a la Programación\",\r\n    \"descripcion\": \"Este curso cubre los fundamentos de la programación, incluyendo variables, estructuras de control y funciones.\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3001/neuroCode/v1/curso/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"neuroCode",
+								"v1",
+								"curso",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarCursoPorID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/neuroCode/v1/curso/obtenerCursoID/681af904b5e097326507e70b",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"neuroCode",
+								"v1",
+								"curso",
+								"obtenerCursoID",
+								"681af904b5e097326507e70b"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "publicacion",
+			"item": [
+				{
+					"name": "CrearPublicacion",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"titulo\": \"Logout y limpieza de datos\",\r\n    \"contenido\": \"Implementa un cierre de sesión seguro borrando el token y reiniciando el estado.\",\r\n    \"cursoId\": \"68210790ea080f65da4a1c2a\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/neuroCode/v1/publicaciones/crearPublicacion/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"neuroCode",
+								"v1",
+								"publicaciones",
+								"crearPublicacion",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ObtenerPublicaciones",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/neuroCode/v1/publicaciones/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"neuroCode",
+								"v1",
+								"publicaciones",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ObtenerPublicacionPorID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/neuroCode/v1/publicaciones/obtenerPublicacionID/681c27d2562c53a0540291ae",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"neuroCode",
+								"v1",
+								"publicaciones",
+								"obtenerPublicacionID",
+								"681c27d2562c53a0540291ae"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ObtenerPublicacionPorCurso",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3001/neuroCode/v1/publicaciones/obtenerCurso/681c26191ee2ad1237599d7a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"neuroCode",
+								"v1",
+								"publicaciones",
+								"obtenerCurso",
+								"681c26191ee2ad1237599d7a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ActualizarPublicacion",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"titulo\": \"Desarollo la Programación\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3001/neuroCode/v1/publicaciones/actualizarPublicacion/681c27d2562c53a0540291ae",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"neuroCode",
+								"v1",
+								"publicaciones",
+								"actualizarPublicacion",
+								"681c27d2562c53a0540291ae"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EliminarPublicacion",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"titulo\": \"Desarollo la Programación\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3001/neuroCode/v1/publicaciones/eliminarPublicacion/681c27d2562c53a0540291ae",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3001",
+							"path": [
+								"neuroCode",
+								"v1",
+								"publicaciones",
+								"eliminarPublicacion",
+								"681c27d2562c53a0540291ae"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "comentarios",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

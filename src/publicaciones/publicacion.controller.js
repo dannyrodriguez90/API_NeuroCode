@@ -1,17 +1,25 @@
+import mongoose from "mongoose";
 import Publicacion from "./publicacion.model.js";
 import Curso from "../curso/curso.model.js"; 
 
 export const crearPublicacion = async (req, res) => {
     try {
-        const { titulo, contenido, cursoId } = req.body; 
-        const cursoExistente = await Curso.findById(cursoId);
-        if (!cursoExistente) {
+        const { titulo, contenido, cursoId } = req.body;
+        if (!mongoose.Types.ObjectId.isValid(cursoId)) {
             return res.status(400).json({
                 success: false,
-                message: "El curso asociado no existe"
+                message: "El cursoId proporcionado no es válido"
             });
         }
-        const nuevaPublicacion = new Publicacion({ titulo, contenido, cursoId }); 
+
+        const cursoExistente = await Curso.findOne({ _id: cursoId, status: true });
+        if (!cursoExistente) {
+            return res.status(404).json({
+                success: false,
+                message: "El curso asociado no existe o está inactivo"
+            });
+        }
+        const nuevaPublicacion = new Publicacion({ titulo, contenido, cursoId });
         await nuevaPublicacion.save();
 
         return res.status(201).json({

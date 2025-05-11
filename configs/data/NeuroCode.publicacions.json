@@ -1,0 +1,483 @@
+[{
+  "_id": {
+    "$oid": "682107a6ea080f65da4a1c2d"
+  },
+  "titulo": "Headers y Authorization",
+  "contenido": "Aprende a enviar headers personalizados, incluyendo tokens y content-types.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c23"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:25:10.075Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:25:10.075Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:25:10.075Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68210853ea080f65da4a1c30"
+  },
+  "titulo": "Qué es una API",
+  "contenido": "Descubre qué son las APIs y cómo permiten la comunicación entre aplicaciones.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c23"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:28:03.875Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:28:03.875Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:28:03.875Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68210868ea080f65da4a1c33"
+  },
+  "titulo": "Tipos de APIs",
+  "contenido": "Explora las diferencias entre REST, SOAP y GraphQL y sus casos de uso.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c23"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:28:24.446Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:28:24.447Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:28:24.447Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821087aea080f65da4a1c36"
+  },
+  "titulo": "Métodos HTTP en APIs",
+  "contenido": "Aprende a utilizar métodos como GET, POST, PUT y DELETE en peticiones HTTP.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c23"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:28:42.993Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:28:42.993Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:28:42.993Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821088fea080f65da4a1c39"
+  },
+  "titulo": "Códigos de respuesta HTTP",
+  "contenido": "Conoce los principales códigos como 200, 404 y 500, y qué significan.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c23"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:29:03.310Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:29:03.311Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:29:03.311Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682108a7ea080f65da4a1c3c"
+  },
+  "titulo": "Autenticación con JWT",
+  "contenido": "Conoce cómo funcionan los tokens JWT y cómo enviarlos en headers de peticiones.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c23"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:29:27.030Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:29:27.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:29:27.030Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "682108bbea080f65da4a1c3f"
+  },
+  "titulo": "Headers y Authorization",
+  "contenido": "Aprende a enviar headers personalizados, incluyendo tokens y content-types.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c23"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:29:47.644Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:29:47.644Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:29:47.644Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68210946ea080f65da4a1c4c"
+  },
+  "titulo": "Consumo de API con Fetch",
+  "contenido": "Haz peticiones a APIs desde React usando Fetch API de forma sencilla.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c27"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:32:06.178Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:32:06.178Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:32:06.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68210950ea080f65da4a1c4f"
+  },
+  "titulo": "Consumo de API con Axios",
+  "contenido": "Simplifica tus peticiones HTTP con la librería Axios en tus componentes React.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c27"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:32:16.058Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:32:16.059Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:32:16.059Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821095dea080f65da4a1c52"
+  },
+  "titulo": "useEffect para llamadas a APIs",
+  "contenido": "Utiliza el hook useEffect para hacer llamadas a API al montar un componente.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c27"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:32:29.546Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:32:29.546Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:32:29.546Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68210968ea080f65da4a1c55"
+  },
+  "titulo": "Renderizado condicional en React",
+  "contenido": "Muestra contenido basado en el estado de carga, error o éxito de una petición.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c27"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:32:40.306Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:32:40.306Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:32:40.306Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68210971ea080f65da4a1c58"
+  },
+  "titulo": "Manejo de errores en peticiones",
+  "contenido": "Implementa un manejo de errores robusto al consumir APIs desde React.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c27"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:32:49.635Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:32:49.635Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:32:49.635Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821097bea080f65da4a1c5b"
+  },
+  "titulo": "Loading y Skeletons en React",
+  "contenido": "Mejora la UX mostrando loaders mientras se cargan los datos de la API.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c27"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:32:59.890Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:32:59.890Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:32:59.890Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68210985ea080f65da4a1c5e"
+  },
+  "titulo": "useContext + APIs",
+  "contenido": "Combina Context API con datos de backend para compartir estado global.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c27"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:33:09.118Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:33:09.118Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:33:09.118Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6821098cea080f65da4a1c61"
+  },
+  "titulo": "Guardar token en localStorage",
+  "contenido": "Persistencia de sesión del usuario guardando el token JWT localmente.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c27"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:33:16.352Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:33:16.352Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:33:16.352Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68210a31ea080f65da4a1c73"
+  },
+  "titulo": "Formularios y POST con React",
+  "contenido": "Crea formularios en React y envía datos al servidor con una API REST.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c2a"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:36:01.886Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:36:01.886Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:36:01.886Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68210a3fea080f65da4a1c76"
+  },
+  "titulo": "PUT y DELETE con Axios",
+  "contenido": "Actualiza o elimina recursos de una API desde componentes de React.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c2a"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:36:15.386Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:36:15.386Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:36:15.386Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68210a4aea080f65da4a1c79"
+  },
+  "titulo": "Custom Hooks para APIs",
+  "contenido": "Crea hooks personalizados para reutilizar la lógica de conexión con APIs.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c2a"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:36:26.847Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:36:26.847Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:36:26.847Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68210a56ea080f65da4a1c7c"
+  },
+  "titulo": "CRUD completo con React y API",
+  "contenido": "Implementa todas las operaciones CRUD conectando React con una API REST.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c2a"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:36:38.229Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:36:38.230Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:36:38.230Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68210a5fea080f65da4a1c7f"
+  },
+  "titulo": "Paginar resultados de una API",
+  "contenido": "Crea lógica en React para paginar datos obtenidos de una API.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c2a"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:36:47.197Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:36:47.197Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:36:47.197Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68210a6aea080f65da4a1c82"
+  },
+  "titulo": "Filtrar datos de una API",
+  "contenido": "Implementa filtros de búsqueda para los datos recibidos desde el backend.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c2a"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:36:58.959Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:36:58.959Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:36:58.959Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68210a72ea080f65da4a1c85"
+  },
+  "titulo": "Ordenar datos de la API",
+  "contenido": "Permite a los usuarios ordenar resultados por fecha, nombre u otros criterios.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c2a"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:37:06.860Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:37:06.861Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:37:06.861Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68210a7dea080f65da4a1c88"
+  },
+  "titulo": "Logout y limpieza de datos",
+  "contenido": "Implementa un cierre de sesión seguro borrando el token y reiniciando el estado.",
+  "cursoId": {
+    "$oid": "68210790ea080f65da4a1c2a"
+  },
+  "comentarios": [],
+  "status": true,
+  "fecha": {
+    "$date": "2025-05-11T20:37:17.118Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-11T20:37:17.118Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-11T20:37:17.118Z"
+  }
+}]

@@ -27,6 +27,4 @@ cursoSchema.methods.toJSON = function () {
     return curso;
 };
 
-export const Curso = model("Curso", cursoSchema);
-
-export default Curso;
+export default model("Curso", cursoSchema);

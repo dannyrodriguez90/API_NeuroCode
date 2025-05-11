@@ -9,7 +9,7 @@ import cursoRoutes from "../src/curso/curso.routes.js"
 import publicacionRoutes from "../src/publicaciones/publicacion.routes.js"
 import comentarioRoutes from "../src/comentarios/comentario.routes.js"
 import { swaggerDocs, swaggerUi } from "./swagger.js" 
-import { inicializarCursos } from "./admin.default.js"
+import { inicializarCursos } from "./curso.default.js"
 
 
 
